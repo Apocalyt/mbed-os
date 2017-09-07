@@ -222,9 +222,9 @@ struct coap_s {
     #endif
 
     uint32_t system_time;    /* System time seconds */
+	uint16_t sn_coap_resending_queue_bytes;
     uint16_t sn_coap_block_data_size;
     uint8_t sn_coap_resending_queue_msgs;
-    uint8_t sn_coap_resending_queue_bytes;
     uint8_t sn_coap_resending_count;
     uint8_t sn_coap_resending_intervall;
     uint8_t sn_coap_duplication_buffer_size;
